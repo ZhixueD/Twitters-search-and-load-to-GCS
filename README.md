@@ -36,15 +36,15 @@ Click CREATE ENVIRONMENT and select Composer 1. Set the following for your envir
  
  After create
  
- ![airflow10](https://user-images.githubusercontent.com/98153604/151387252-1ac0672f-d8b0-4a9d-ba74-0817b7a51171.JPG)
+ ![high cpu](https://user-images.githubusercontent.com/98153604/155223170-61dfd2ca-aa4e-4709-9e53-6c1b63fac953.JPG)
  
  Go to Computer Engine, it shows:
  
- ![airflow9](https://user-images.githubusercontent.com/98153604/151387485-02ca1712-9dff-4b40-b1ed-67d7eec1fc1a.JPG)
+ ![vm](https://user-images.githubusercontent.com/98153604/155223211-c733cb40-a31e-4bb5-a489-2526448fdd8a.JPG)
  
  Go to Google cloud storage, you will see a new bucket create:
  
- ![airflow7](https://user-images.githubusercontent.com/98153604/151390976-13b9b3e4-3cd0-4647-bbb5-83e319241de0.JPG)
+ ![dag bucket](https://user-images.githubusercontent.com/98153604/155223274-d2d273d0-1448-4901-a36d-d8dc31e0a675.JPG)
   
 ## 3. Create a Cloud Storage bucket, named: brant-twitter-search
  
@@ -60,7 +60,7 @@ Once your environment has been created, click the name of the environment (highc
 
 On the Environment details you'll see information such as the Airflow web interface URL, Kubernetes Engine cluster ID, and a link to the DAGs folder, which is stored in your bucket.
 
-![airflow11](https://user-images.githubusercontent.com/98153604/151392333-be81ef29-98c5-400a-9228-46921128f365.JPG)
+![envioron](https://user-images.githubusercontent.com/98153604/155223779-4af0dfe1-95ee-4c71-8c5c-fa5a448c7875.JPG)
 
 Open Airflow web interface URL, setting Airflow variables. Select Admin > Variables from the Airflow menu bar, then Create.
 
