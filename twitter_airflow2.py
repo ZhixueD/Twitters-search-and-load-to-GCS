@@ -18,11 +18,11 @@ import json
 #from os import environ
 #from google.cloud import storage
 
-api_key= 'UpXDXf5bAHsqxzxsBbdpakH6D'
-api_key_secret='eOGxIAm4W7bsGepmSLeayh5GFayVmbtU09B5f3T88yiy1aJJLL'
-access_token='1374281669218349057-Y0cdOOIehQXC8rFWZIfssGbJdLD7Ti'
-access_token_secret='zBvjm2DIs0p2Q45ICIbvVmi9XUfrcCiJzVO66Y6k9r7Ju'
-bearer_token='AAAAAAAAAAAAAAAAAAAAAGH3ZQEAAAAAb2Lu7pW0Cx%2FuGu7dMQVr0okFfD0%3DcJO9VyMXmJPc9dKIAcmPck2kfDSWwZLFYGibC2jXCKK1n8u3jE'
+api_key= ####
+api_key_secret=####
+access_token=####
+access_token_secret=####
+bearer_token=####
 
 # Define the python function for PythonOperator
 
