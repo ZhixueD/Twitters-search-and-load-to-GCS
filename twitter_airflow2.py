@@ -96,8 +96,7 @@ with models.DAG(
     schedule_interval=datetime.timedelta(minutes=5),  # Override to match your needs
     ) as dag:
 
-	# define the task
-    
+# define the task
     twitters_search_load = PythonOperator(
 		task_id='twitters_search_load',
 		python_callable = searchTweets,
