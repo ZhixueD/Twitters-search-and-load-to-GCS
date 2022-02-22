@@ -101,7 +101,7 @@ with models.DAG(
     twitters_search_load = PythonOperator(
 		task_id='twitters_search_load',
 		python_callable = searchTweets,
-        op_kwargs = {"query" : "sweden"},
+                op_kwargs = {"query" : "sweden"},
 		dag=dag)
 
 twitters_search_load    
