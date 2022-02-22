@@ -12,6 +12,7 @@ This workflow is create in google cloud composer (Airflow).
 4. Setting Airflow variables in Airflow web UI
 5. Copy the DAG python file to Cloud Storage Dag folder
 6. Exploring DAG runs
+7. Check Google cloud storage
 
 ## 1. Enable API used in this project
 
