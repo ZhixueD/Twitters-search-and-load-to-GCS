@@ -98,11 +98,11 @@ The Dag file contant:
         #from os import environ
         #from google.cloud import storage
 
-        api_key= 'UpXDXf5bAHsqxzxsBbdpakH6D'
-        api_key_secret='eOGxIAm4W7bsGepmSLeayh5GFayVmbtU09B5f3T88yiy1aJJLL'
-        access_token='1374281669218349057-Y0cdOOIehQXC8rFWZIfssGbJdLD7Ti'
-        access_token_secret='zBvjm2DIs0p2Q45ICIbvVmi9XUfrcCiJzVO66Y6k9r7Ju'
-        bearer_token='AAAAAAAAAAAAAAAAAAAAAGH3ZQEAAAAAb2Lu7pW0Cx%2FuGu7dMQVr0okFfD0%3DcJO9VyMXmJPc9dKIAcmPck2kfDSWwZLFYGibC2jXCKK1n8u3jE'
+        api_key= ###
+        api_key_secret= ###
+        access_token= ###
+        access_token_secret= ###
+        bearer_token= ###
 
 
         def searchTweets(query):
@@ -180,4 +180,23 @@ The Dag file contant:
         twitters_search_load
         
 ## 6. Exploring DAG runs
+
+Open Airflow web interface:
+
+![dag1](https://user-images.githubusercontent.com/98153604/155225594-83463e1d-4390-4e2e-8480-3429476f28e8.JPG)
+
+![dag2](https://user-images.githubusercontent.com/98153604/155225691-4b262229-5e3c-41e5-883b-458d33ccfb1a.JPG)
+
+## 7. Check Google cloud storage
+
+1 csv file twitter.csv has been generated
+
+![csv1](https://user-images.githubusercontent.com/98153604/155226140-1b26a14f-61b9-4611-82f9-25e47f95337c.JPG)
+
+![csv2](https://user-images.githubusercontent.com/98153604/155226170-c065376d-2351-4599-9c57-d0b55c3fa591.JPG)
+
+![csv3](https://user-images.githubusercontent.com/98153604/155226890-5ba1bfe2-3b07-4ce9-9ba0-bb87ceda649d.JPG)
+
+
+
 
