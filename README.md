@@ -45,6 +45,10 @@ Click CREATE ENVIRONMENT and select Composer 1. Set the following for your envir
  Go to Google cloud storage, you will see a new bucket create:
  
  ![dag bucket](https://user-images.githubusercontent.com/98153604/155223274-d2d273d0-1448-4901-a36d-d8dc31e0a675.JPG)
+ 
+ Add PYPI packages in Composer envioronment to support later python code
+ 
+ ![pypi packages](https://user-images.githubusercontent.com/98153604/155227635-4abc2b1e-ff84-4427-b37a-e1584b2184d8.JPG)
   
 ## 3. Create a Cloud Storage bucket, named: brant-twitter-search
  
